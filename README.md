@@ -1,4 +1,3 @@
-
 # spring-boot-app
 
 Skeleton for a Spring Boot App with few extra: 
