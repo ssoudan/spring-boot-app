@@ -1,0 +1,15 @@
+server:
+  port: 8080
+
+ribbon:
+  ServerListRefreshInterval: 1000
+
+endpoints:
+  health:
+    sensitive: true
+  restart:
+    enabled: true
+  shutdown:
+    enabled: true
+  info:
+    enabled: true
