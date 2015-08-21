@@ -6,9 +6,11 @@ Skeleton for a Spring Boot App with few extra:
 - swagger
 - example of HealthIndicator(s)
 
-## Build
+## Build and Run
 
-    ~ gradle distDocker
+As a Docker container:
+
+    ~ $ gradle distDocker
     :compileJava UP-TO-DATE
     :processResources UP-TO-DATE
     :classes UP-TO-DATE
@@ -41,11 +43,11 @@ Skeleton for a Spring Boot App with few extra:
     Total time: 8.775 secs
     
     This build could be faster, please consider using the Gradle Daemon: https://docs.gradle.org/2.6/userguide/ gradle_daemon.html
-    ~ docker images
+    ~ $ docker images
     REPOSITORY                      TAG                 IMAGE ID            CREATED             VIRTUAL SIZE
     ssoudan/spring-boot-app         0.1.0               157853a45fbb        10 seconds ago      834.7 MB
     [snip]
-    ~ docker run -ti ssoudan/spring-boot-app:0.1.0
+    ~ $ docker run -ti ssoudan/spring-boot-app:0.1.0
 
       .   ____          _            __ _ _
      /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
