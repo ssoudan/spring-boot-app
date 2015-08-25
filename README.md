@@ -6,6 +6,12 @@ Skeleton for a Spring Boot App with few extra:
 - swagger
 - example of HealthIndicator(s)
 
+## Import to Intellij IDEA
+
+	~ $ gradle idea
+
+	then open project from IDEA.
+
 ## Build and Run
 
 As a Docker container:
@@ -47,7 +53,7 @@ As a Docker container:
     REPOSITORY                      TAG                 IMAGE ID            CREATED             VIRTUAL SIZE
     ssoudan/spring-boot-app         0.1.0               157853a45fbb        10 seconds ago      834.7 MB
     [snip]
-    ~ $ docker run -ti ssoudan/spring-boot-app:0.1.0
+    ~ $ docker run -ti -p 8080:8080 ssoudan/spring-boot-app:0.1.0
 
       .   ____          _            __ _ _
      /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
